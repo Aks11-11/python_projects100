@@ -8,4 +8,3 @@ def pick_a_card():
     return(f"The {rank} of {card}")
 
 print(pick_a_card())
-view raw
