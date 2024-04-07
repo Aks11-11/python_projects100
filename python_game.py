@@ -1,8 +1,5 @@
 class game_of_life:
 def gameOfLife(self, board: List[List[int]]) -> None:
-"""
-        Do not return anything, modify board in-place instead.
-        """
 # Neighbors array to find 8 neighboring cells for a given cell
 neighbors = [(1,0), (1,-1), (0,-1), (-1,-1), (-1,0), (-1,1), (0,1), (1,1)]
 rows = len(board)
