@@ -1,6 +1,4 @@
 import guess
-
-
 def check_guess(guess, answer):
     global score
 still_guessing = True

@@ -11,7 +11,6 @@ def from_kg():
     t2.insert(END, pound)
     t3.delete("1.0", END)
     t3.insert(END, ounce)
-
 e1 = Label(window, text="Input the weight in KG")
 e2_value = StringVar()
 e2 = Entry(window, textvariable=e2_value)
@@ -22,7 +21,6 @@ e5 = Label(window, text="Ounce")
 t1 = Text(window, height=5, width=30)
 t2 = Text(window, height=5, width=30)
 t3 = Text(window, height=5, width=30)
-
 b1 = Button(window, text="Convert", command=from_kg)
 
 e1.grid(row=0, column=0)

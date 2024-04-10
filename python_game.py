@@ -10,6 +10,7 @@ copy_board = [[board[row][col] for col in range(cols)] for row in range(rows)]
 for row in range(rows):
 for col in range(cols):
 # For each cell count the number of live neighbors.
+
 live_neighbors = 0
 for neighbor in neighbors:
 r = (row + neighbor[0])

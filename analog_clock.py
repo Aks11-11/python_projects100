@@ -57,7 +57,6 @@ class main(Tkinter.Tk):
 			cr.append(self.length*math.sin(math.radians(i*6)-math.radians(90))+self.y)
 			self.canvas.coords(self.sticks[n], tuple(cr))
 		return
-
 # Main Function Trigger
 if __name__ == '__main__':
 	root=main()
