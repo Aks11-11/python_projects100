@@ -1,5 +1,4 @@
 import requests
-
 def convert_currency():
    init_currency = input('Enter an initial currency: ')
    target_currency = input('Enter a target currency: ')
