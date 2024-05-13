@@ -19,7 +19,6 @@ def convert_currency():
    url = ('https://api.apilayer.com/fixer/convert?to='
           + target_currency + '&from=' + init_currency +
           '&amount=' + str(amount))
-
    payload = {}
    headers = {'apikey': 'YOUR API KEY'}
    response = requests.request('GET', url, headers=headers, data=payload)
