@@ -104,7 +104,6 @@ scoreboard.place(x=100,y=180)
 timerlabel=Label(wn,text='Time Elapsed:',font=('arial',25,
             'italic bold'),fg='red')
 timerlabel.place(x=500,y=100)
-
 #Label to show time
 timer=Label(wn,text=time,font=('arial',25,
              'italic bold'),fg='blue')
