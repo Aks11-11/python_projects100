@@ -2,8 +2,6 @@
 
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
-
-
 def create_chat_bot():
    chatbot = ChatBot('Chattering Bot')
    trainer = ChatterBotCorpusTrainer(chatbot)
