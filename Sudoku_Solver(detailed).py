@@ -1,6 +1,5 @@
 import pygame
 
-
 pygame.font.init()
 screen = pygame.display.set_mode((600, 600))
 pygame.display.set_caption('SUDOKU SOLVER USING BACKTRACKING')
