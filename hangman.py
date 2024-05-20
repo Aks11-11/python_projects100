@@ -149,7 +149,6 @@ class HangmanGame:
 
         self.buttons_frame.pack()
 
-
 def main():
     root = tk.Tk()
     game = HangmanGame(root)
