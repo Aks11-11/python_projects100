@@ -148,7 +148,6 @@ class HangmanGame:
             self.restart_button.pack_forget()
 
         self.buttons_frame.pack()
-
 def main():
     root = tk.Tk()
     game = HangmanGame(root)
