@@ -135,7 +135,6 @@ class HangmanGame:
 
         self.hangman_canvas.delete("all")
         self.update_word_display()
-
         for frame in self.buttons_frame.winfo_children():
             for button in frame.winfo_children():
                 button.configure(state=tk.NORMAL)
