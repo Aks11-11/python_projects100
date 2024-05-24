@@ -126,7 +126,6 @@ class HangmanGame:
             self.restart_button = tk.Button(self.master, text="Restart Game", command=self.reset_game, width=20,
                                             height=2, bg=button_bg, fg=button_fg, font=button_font)
         self.restart_button.pack(pady=(10, 20))
-
     def reset_game(self):
         self.secret_word = self.choose_secret_word()
         self.correct_guesses = set()
