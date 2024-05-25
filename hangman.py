@@ -131,7 +131,6 @@ class HangmanGame:
         self.correct_guesses = set()
         self.incorrect_guesses = set()
         self.attempts_left = 7
-
         self.hangman_canvas.delete("all")
         self.update_word_display()
         for frame in self.buttons_frame.winfo_children():
