@@ -74,7 +74,6 @@ def create_lib():
            4. View Your Books
            5. Exit'''
              )
-
        choice = int(input('Enter Choice: '))
        if choice == 1:
            print()
