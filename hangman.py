@@ -138,7 +138,6 @@ class HangmanGame:
                 button.configure(state=tk.NORMAL)
 
         self.reset_button.pack(pady=(10, 0))
-
         if hasattr(self, 'game_over_label') and self.game_over_label.winfo_exists():
             self.game_over_label.pack_forget()
         if hasattr(self, 'restart_button') and self.restart_button.winfo_exists():
