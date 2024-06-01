@@ -20,8 +20,6 @@ def send_email(recipient, subject, msg):
        gmail_obj.send_message(email)
    print('Email sent to ' + str(recipient) + ' with Subject: \''
          + str(subject) + '\' and Message: \'' + str(msg) + '\'')
-
-
 def send_bday_emails(bday_file):
    bdays_df = pd.read_excel(bday_file)
    today = datetime.now().strftime('%m-%d')
