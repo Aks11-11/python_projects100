@@ -15,7 +15,6 @@ figure = px.scatter(data_frame = data,
                     trendline="ols",
                     title = "Relationship Between Likes and Impressions")
 figure.show()
-
 plt.figure(figsize=(10, 8))
 plt.style.use('fivethirtyeight')
 plt.title("Relationship Bewtween Likes & Impressions")
