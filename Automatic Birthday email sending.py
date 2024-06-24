@@ -32,7 +32,6 @@ def send_bday_emails(bday_file):
            msg = 'Happy Birthday ' + str(item['Name'] + '!!')
            send_email(item['Email'], 'Happy Birthday', msg)
            sent_index.append(idx)
-
    for idx in sent_index:
        bdays_df.loc[bdays_df.index[idx], 'Last Sent'] = str(year_now)
 
