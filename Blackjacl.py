@@ -296,8 +296,6 @@ def init_deck():
         for card, value in cards.items():
             deck.append(Card(card, value, suit_symbols[suit]))
     return deck
-
-
 if __name__ == '__main__':
     deck = init_deck()
     play_blackjack(deck)
