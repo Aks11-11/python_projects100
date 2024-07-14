@@ -31,6 +31,5 @@ tracer(False)
 width(20)
 onkey(flick, 'space')
 listen()
-
 animate()
 done()
