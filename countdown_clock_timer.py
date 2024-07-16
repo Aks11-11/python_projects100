@@ -10,7 +10,6 @@ def countdown(user_time):
        user_time -= 1
    print('Lift off!')
 
-
 if __name__ == '__main__':
    user_time = int(input("Enter a time in seconds: "))
    countdown(user_time)
