@@ -1,6 +1,4 @@
 import time
-
-
 def countdown(user_time):
    while user_time >= 0:
        mins, secs = divmod(user_time, 60)
