@@ -64,28 +64,22 @@ def main():
             category = input("Enter the category: ")
             description = input("Enter the description (optional): ")
             tracker.add_expense(amount, category, description)
-
         elif choice == "2":
             tracker.view_expenses()
-
         elif choice == "3":
             category = input("Enter the category: ")
             tracker.view_expenses_by_category(category)
-
         elif choice == "4":
             tracker.total_expense()
-
         elif choice == "5":
             filename = input("Enter the filename to save expenses (default: expenses.json): ")
             if not filename:
                 filename = "expenses.json"
             tracker.save_expenses(filename)
-
         elif choice == "6":
             tracker.save_expenses()
             print("Exiting the program. Goodbye!")
             break
-
         else:
             print("Invalid option. Please try again.")
 
