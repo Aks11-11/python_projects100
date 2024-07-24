@@ -5,5 +5,4 @@ def pick_a_card():
     card = random.choices(cards)
     rank = random.choices(ranks)
     return(f"The {rank} of {card}")
-
 print(pick_a_card())
