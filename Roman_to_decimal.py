@@ -8,7 +8,6 @@ tallies = {
     'M': 1000,
     # specify more numerals if you wish
 }
-
 def RomanNumeralToDecimal(romanNumeral):
     sum = 0
     for i in range(len(romanNumeral) - 1):
