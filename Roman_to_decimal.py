@@ -18,4 +18,5 @@ def RomanNumeralToDecimal(romanNumeral):
         else:
             sum += tallies[left]
     sum += tallies[romanNumeral[-1]]
+
     return sum
