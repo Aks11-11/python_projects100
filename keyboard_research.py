@@ -8,8 +8,6 @@ print(data.sample(10))
 df = data.sample(15)
 df.reset_index().plot(x="geoName", y="Data Science", figsize=(120,16), kind="bar")
 plt.show()
-
-
 data = trends.trending_searches(pn="india")
 print(data.head(10))
 
