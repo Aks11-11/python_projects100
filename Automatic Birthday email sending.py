@@ -23,7 +23,6 @@ def send_bday_emails(bday_file):
    today = datetime.now().strftime('%m-%d')
    year_now = datetime.now().strftime('%Y')
    sent_index = []
-
    for idx, item in bdays_df.iterrows():
        bday = item['Birthday'].to_pydatetime().strftime('%m-%d')
        if (today == bday) and year_now not in str(item['Last Sent']):
