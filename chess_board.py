@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import LogNorm
+
 dx, dy = 0.015, 0.05
 x = np.arange(-4.0, 4.0, dx)
 y = np.arange(-4.0, 4.0, dy)
