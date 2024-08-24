@@ -282,8 +282,6 @@ def play_blackjack(deck):
         print('PLAYER WINS!!!')
     else:
         print('DEALER WINS!!!')
-
-
 def init_deck():
     suits = ['Spades', 'Hearts', 'Clubs', 'Diamonds']
     # UNICODE values for card symbol images
