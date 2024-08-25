@@ -34,8 +34,6 @@ class main(Tkinter.Tk):
 		self.canvas=Tkinter.Canvas(self, bg='black')
 		self.canvas.pack(expand='yes',fill='both')
 		return
-
-	# Creating Moving Sticks
 	def creating_sticks(self):
 		self.sticks=[]
 		for i in range(3):
