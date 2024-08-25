@@ -43,7 +43,6 @@ class main(Tkinter.Tk):
 			self.sticks.append(store)
 		return
 
-	# Function Need Regular Update
 	def update_class(self):
 		now=time.localtime()
 		t = time.strptime(str(now.tm_hour), "%H")
