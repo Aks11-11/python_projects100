@@ -40,7 +40,6 @@ class main(Tkinter.Tk):
 			store=self.canvas.create_line(self.x, self.y,self.x+self.length,self.y+self.length,width=2, fill='red')
 			self.sticks.append(store)
 		return
-
 	def update_class(self):
 		now=time.localtime()
 		t = time.strptime(str(now.tm_hour), "%H")
