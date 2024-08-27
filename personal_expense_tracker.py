@@ -3,7 +3,6 @@ import json
 class ExpenseTracker:
     def __init__(self):
         self.expenses = []
-
     def add_expense(self, amount, category, description=""):
         expense = {
             'amount': amount,
