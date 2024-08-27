@@ -142,7 +142,6 @@ class HangmanGame:
             self.game_over_label.pack_forget()
         if hasattr(self, 'restart_button') and self.restart_button.winfo_exists():
             self.restart_button.pack_forget()
-
         self.buttons_frame.pack()
 def main():
     root = tk.Tk()

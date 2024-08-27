@@ -1,0 +1,17 @@
+Did the learner list 5 or more data points out of the 8 data points listed below that are required for the analysis and detection of a credit card fraud?
+
+1.       Card holder / Customer Id
+
+2.       Transaction date
+
+3.       Transaction time
+
+4.       Transaction value
+
+5.       Shipping address
+
+6.       IP address
+
+7.       Device model
+
+8.       Location
