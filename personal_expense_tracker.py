@@ -12,7 +12,6 @@ class ExpenseTracker:
         }
         self.expenses.append(expense)
         print(f"Added expense: {expense}")
-
     def view_expenses(self):
         for expense in self.expenses:
             print(expense)
