@@ -38,8 +38,6 @@ class ExpenseTracker:
             print(f"Expenses loaded from {filename}")
         except FileNotFoundError:
             print(f"No file named {filename} found. Starting with an empty expense list.")
-
-
 def main():
     tracker = ExpenseTracker()
     tracker.load_expenses()
