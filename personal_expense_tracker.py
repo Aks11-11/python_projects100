@@ -30,7 +30,6 @@ class ExpenseTracker:
         with open(filename, 'w') as file:
             json.dump(self.expenses, file)
         print(f"Expenses saved to {filename}")
-
     def load_expenses(self, filename="expenses.json"):
         try:
             with open(filename, 'r') as file:
