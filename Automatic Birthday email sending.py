@@ -5,7 +5,6 @@ from email.message import EmailMessage
 def send_email(recipient, subject, msg):
    GMAIL_ID = 'your_email_here'
    GMAIL_PWD = 'your_password_here'
-
    email = EmailMessage()
    email['Subject'] = subject
    email['From'] = GMAIL_ID
