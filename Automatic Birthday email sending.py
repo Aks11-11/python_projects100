@@ -10,7 +10,6 @@ def send_email(recipient, subject, msg):
    email['From'] = GMAIL_ID
    email['To'] = recipient
    email.set_content(msg)
-
    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as gmail_obj:
        gmail_obj.ehlo()
        gmail_obj.login(GMAIL_ID, GMAIL_PWD)
