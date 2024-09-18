@@ -10,7 +10,6 @@ page_soup = soup(page_html, "html.parser")
 
 containers = page_soup.findAll("div", { "class": "_3O0U0u"})
 print(len(containers))
-
 print(soup.prettify(containers[0]))
 container = containers[0]
 print(container.div.img["alt"])
