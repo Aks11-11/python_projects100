@@ -29,7 +29,6 @@ def send_bday_emails(bday_file):
            sent_index.append(idx)
    for idx in sent_index:
        bdays_df.loc[bdays_df.index[idx], 'Last Sent'] = str(year_now)
-
    bdays_df.to_excel(bday_file, index=False)
 if __name__ == '__main__':
    send_bday_emails(bday_file='your_bdays_list.xlsx')
