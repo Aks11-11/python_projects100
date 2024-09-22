@@ -88,8 +88,6 @@ except:"""
 # Training & Saving the Model
 model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
 model.save("model.tflearn")
-
-
 # making predictions
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
@@ -103,8 +101,6 @@ def bag_of_words(s, words):
                 bag[i] = 1
 
     return numpy.array(bag)
-
-
 def chat():
     print("""Start talking with the bot and ask your
 	queries about Corona-virus(type quit to stop)!""")
