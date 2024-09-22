@@ -20,7 +20,6 @@ def spinner():
 def animate():
     if state['turn']>0:
         state['turn']-=1
-
     spinner()
     ontimer(animate, 20)
 def flick():
