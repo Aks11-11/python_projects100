@@ -107,7 +107,6 @@ def chat():
         inp = input("You: ")
         if inp.lower() == "quit":
             break
-
         results = model.predict([bag_of_words(inp, words)])[0]
         results_index = numpy.argmax(results)
 
