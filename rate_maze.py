@@ -170,7 +170,6 @@ def run_maze(
         if block_flag:
             # check visited
             solutions[i][j] = 0
-
             # check for directions
             if (
                 run_maze(maze, i + 1, j, destination_row, destination_column, solutions)
