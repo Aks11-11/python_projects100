@@ -184,6 +184,7 @@ def run_maze(
                 )
             ):
                 return True
+
             solutions[i][j] = 1
             return False
     return False
