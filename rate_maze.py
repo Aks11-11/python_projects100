@@ -183,6 +183,7 @@ def run_maze(
                     maze, i, j - 1, destination_row, destination_column, solutions
                 )
             ):
+
                 return True
             solutions[i][j] = 1
             return False
