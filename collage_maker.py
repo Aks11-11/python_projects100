@@ -6,6 +6,5 @@ def collage_maker(image1, image2, name):
     collage = np.vstack([i1, i2])
     image = Image.fromarray(collage)
     image.save(name)
-
 # To Run The Above Function
 collage_maker("image1.jpg", "image2.jpg", "new.jpg")

@@ -2,7 +2,6 @@ import pandas as pd
 from datetime import datetime
 import smtplib
 from email.message import EmailMessage
-
 def send_email(recipient, subject, msg):
    GMAIL_ID = 'your_email_here'
    GMAIL_PWD = 'your_password_here'
