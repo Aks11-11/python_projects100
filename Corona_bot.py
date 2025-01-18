@@ -9,7 +9,6 @@ import json
 nltk.download('punkt')
 
 from nltk.stem.lancaster import LancasterStemmer
-
 stemmer = LancasterStemmer()
 # loading the json data
 with open("WHO.json") as file:
